@@ -21,6 +21,21 @@
 
 <div align="center">
 
+## 📖 From the Same Author
+
+<img src="images/rag_book_best_seller.png" alt="#1 Best Seller in Generative AI on Amazon" width="500">
+
+**[RAG Made Simple](https://europe-west1-rag-techniques-views-tracker.cloudfunctions.net/rag-techniques-tracker?notebook=agents-towards-production--readme&click=book-buy-amazon-title&target=https%3A%2F%2Fwww.amazon.com%2Fdp%2FB0D76734SZ%3Ftag%3Ddiamantai-atp-20&text=RAG%20Made%20Simple)** — **#1 Best Seller on Amazon in Generative AI.**
+22 RAG techniques with intuition, comparisons, and illustrations. **Free with Kindle Unlimited** or **$0.99** launch price (goes up soon).
+
+### 👉 [**Get the book on Amazon**](https://europe-west1-rag-techniques-views-tracker.cloudfunctions.net/rag-techniques-tracker?notebook=agents-towards-production--readme&click=book-buy-amazon-cta&target=https%3A%2F%2Fwww.amazon.com%2Fdp%2FB0D76734SZ%3Ftag%3Ddiamantai-atp-20&text=Get%20the%20book%20on%20Amazon)
+
+</div>
+
+---
+
+<div align="center">
+
 ## 💎 Tutorial Sponsors
 
 <p align="center"><em>
@@ -251,22 +266,6 @@ Click a logo to visit their website.
 </div>
 
 
----
-
-<div align="center">
-
-## 📖 From the Same Author
-
-<img src="images/rag_book_best_seller.png" alt="#1 Best Seller in Generative AI on Amazon" width="250">
-
-**[RAG Made Simple](https://europe-west1-rag-techniques-views-tracker.cloudfunctions.net/rag-techniques-tracker?notebook=agents-towards-production--readme&click=book-buy-amazon-title&target=https%3A%2F%2Fwww.amazon.com%2Fdp%2FB0D76734SZ%3Ftag%3Ddiamantai-atp-20&text=RAG%20Made%20Simple)** just hit **#1 Best Seller on Amazon in Generative AI.**
-The book covers 22 RAG techniques with intuition, comparisons, and illustrations. Launch price: **$0.99** (goes up soon).
-
-[**Get the book on Amazon**](https://europe-west1-rag-techniques-views-tracker.cloudfunctions.net/rag-techniques-tracker?notebook=agents-towards-production--readme&click=book-buy-amazon-cta&target=https%3A%2F%2Fwww.amazon.com%2Fdp%2FB0D76734SZ%3Ftag%3Ddiamantai-atp-20&text=Get%20the%20book%20on%20Amazon)
-
-</div>
-
----
 
 <div align="center">
 
