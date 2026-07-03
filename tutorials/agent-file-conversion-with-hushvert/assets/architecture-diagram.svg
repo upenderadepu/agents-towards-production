@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="470" viewBox="0 0 940 470" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect width="940" height="470" fill="#ffffff"/>
+  <text x="470" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#0f172a">The Two-Lane Conversion Rule</text>
+
+  <!-- Incoming file -->
+  <rect x="370" y="48" width="200" height="54" rx="10" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="470" y="71" text-anchor="middle" font-size="14" font-weight="bold" fill="#0f172a">Agent receives a file</text>
+  <text x="470" y="90" text-anchor="middle" font-size="11.5" fill="#475569">heic, zip, mp3, docx, pptx, pdf, ...</text>
+
+  <!-- Routing rule -->
+  <rect x="345" y="138" width="250" height="58" rx="10" fill="#fef9c3" stroke="#ca8a04" stroke-width="1.5"/>
+  <text x="470" y="162" text-anchor="middle" font-size="14" font-weight="bold" fill="#713f12">Routing rule</text>
+  <text x="470" y="181" text-anchor="middle" font-size="11.5" fill="#854d0e">can the device convert this pair itself?</text>
+
+  <!-- Local lane -->
+  <rect x="60" y="248" width="370" height="128" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+  <text x="245" y="274" text-anchor="middle" font-size="14" font-weight="bold" fill="#064e3b">Local lane: @hushvert/engine</text>
+  <text x="245" y="295" text-anchor="middle" font-size="11.5" fill="#065f46">WebAssembly, MIT, runs in the browser</text>
+  <text x="245" y="313" text-anchor="middle" font-size="11.5" fill="#065f46">images, HEIC, audio, archives,</text>
+  <text x="245" y="331" text-anchor="middle" font-size="11.5" fill="#065f46">PDF page ops, CSV / JSON / XLSX data</text>
+  <text x="245" y="355" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#064e3b">bytes never leave the device, $0 per conversion</text>
+
+  <!-- Server lane -->
+  <rect x="510" y="248" width="370" height="128" rx="10" fill="#e0f2fe" stroke="#0284c7" stroke-width="1.5"/>
+  <text x="695" y="274" text-anchor="middle" font-size="14" font-weight="bold" fill="#0c4a6e">Server lane: MCP tool call / hosted API</text>
+  <text x="695" y="295" text-anchor="middle" font-size="11.5" fill="#075985">office documents to PDF, PDF to Word,</text>
+  <text x="695" y="313" text-anchor="middle" font-size="11.5" fill="#075985">PDF / PPTX / XLSX to markdown, big video</text>
+  <text x="695" y="331" text-anchor="middle" font-size="11.5" fill="#075985">submit, upload, poll, download</text>
+  <text x="695" y="355" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#0c4a6e">metered: free monthly allowance, then credits</text>
+
+  <!-- Output -->
+  <rect x="345" y="412" width="250" height="46" rx="10" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="470" y="440" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#0f172a">LLM-ready output feeds the pipeline</text>
+
+  <!-- Arrows -->
+  <line x1="470" y1="102" x2="470" y2="134" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="380" y1="196" x2="260" y2="244" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="560" y1="196" x2="680" y2="244" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="300" y1="376" x2="400" y2="416" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="640" y1="376" x2="540" y2="416" stroke="#64748b" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Edge labels -->
+  <text x="300" y="212" text-anchor="middle" font-size="11" font-weight="bold" fill="#059669">yes</text>
+  <text x="642" y="212" text-anchor="middle" font-size="11" font-weight="bold" fill="#0284c7">no</text>
+</svg>

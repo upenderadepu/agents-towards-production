@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="420" viewBox="0 0 940 420" font-family="Helvetica, Arial, sans-serif">
+  <rect width="940" height="420" fill="#ffffff"/>
+  <text x="470" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#0f172a">Which lane owns which format</text>
+
+  <!-- Local lane -->
+  <rect x="40" y="56" width="420" height="330" rx="12" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+  <text x="250" y="86" text-anchor="middle" font-size="14" font-weight="bold" fill="#064e3b">Local lane (free, on-device, no key)</text>
+  <g font-size="12.5" font-family="Menlo, monospace">
+    <rect x="64" y="106" width="372" height="30" rx="15" fill="#ffffff" stroke="#059669"/>
+    <text x="250" y="126" text-anchor="middle" fill="#064e3b">png  jpg  webp  avif  jxl  interchange</text>
+    <rect x="64" y="144" width="372" height="30" rx="15" fill="#ffffff" stroke="#059669"/>
+    <text x="250" y="164" text-anchor="middle" fill="#064e3b">heic  bmp  tiff  decode</text>
+    <rect x="64" y="182" width="372" height="30" rx="15" fill="#ffffff" stroke="#059669"/>
+    <text x="250" y="202" text-anchor="middle" fill="#064e3b">mp3  wav  m4a  flac  ogg  audio</text>
+    <rect x="64" y="220" width="372" height="30" rx="15" fill="#ffffff" stroke="#059669"/>
+    <text x="250" y="240" text-anchor="middle" fill="#064e3b">tar  tar.gz  7z  to  zip  +  extraction</text>
+    <rect x="64" y="258" width="372" height="30" rx="15" fill="#ffffff" stroke="#059669"/>
+    <text x="250" y="278" text-anchor="middle" fill="#064e3b">pdf  merge / page render / text extract</text>
+    <rect x="64" y="296" width="372" height="30" rx="15" fill="#ffffff" stroke="#059669"/>
+    <text x="250" y="316" text-anchor="middle" fill="#064e3b">csv  json  yaml  xlsx  data files</text>
+    <rect x="64" y="334" width="372" height="30" rx="15" fill="#ffffff" stroke="#059669"/>
+    <text x="250" y="354" text-anchor="middle" fill="#064e3b">docx to html preview,  mp4 to webm (small)</text>
+  </g>
+
+  <!-- Server lane -->
+  <rect x="480" y="56" width="420" height="330" rx="12" fill="#e0f2fe" stroke="#0284c7" stroke-width="1.5"/>
+  <text x="690" y="86" text-anchor="middle" font-size="14" font-weight="bold" fill="#0c4a6e">Server lane (metered, MCP or REST)</text>
+  <g font-size="12.5" font-family="Menlo, monospace">
+    <rect x="504" y="106" width="372" height="48" rx="15" fill="#ffffff" stroke="#0284c7"/>
+    <text x="690" y="126" text-anchor="middle" fill="#0c4a6e">docx  pptx  xlsx  doc  ppt  xls  odt</text>
+    <text x="690" y="144" text-anchor="middle" fill="#0c4a6e">ods  odp  rtf  html  to  pdf</text>
+    <rect x="504" y="162" width="372" height="30" rx="15" fill="#ffffff" stroke="#0284c7"/>
+    <text x="690" y="182" text-anchor="middle" fill="#0c4a6e">pdf  to  docx  (editable Word)</text>
+    <rect x="504" y="200" width="372" height="48" rx="15" fill="#ffffff" stroke="#0284c7"/>
+    <text x="690" y="220" text-anchor="middle" fill="#0c4a6e">pdf  docx  pptx  xlsx  html  epub</text>
+    <text x="690" y="238" text-anchor="middle" fill="#0c4a6e">rst  latex  to  LLM-ready  md</text>
+    <rect x="504" y="256" width="372" height="30" rx="15" fill="#ffffff" stroke="#0284c7"/>
+    <text x="690" y="276" text-anchor="middle" fill="#0c4a6e">mov  mkv  avi  webm  to  mp4</text>
+    <rect x="504" y="294" width="372" height="30" rx="15" fill="#ffffff" stroke="#0284c7"/>
+    <text x="690" y="314" text-anchor="middle" fill="#0c4a6e">mp4  to  gif</text>
+  </g>
+  <text x="690" y="360" text-anchor="middle" font-size="11.5" fill="#0c4a6e">live list: GET /v1/formats (public, no key)</text>
+
+  <text x="470" y="408" text-anchor="middle" font-size="12" fill="#475569">If a pair appears on the left, an agent should never spend credits on it. The MCP server enforces this at runtime.</text>
+</svg>

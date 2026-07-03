@@ -350,6 +350,13 @@ All knowledge is delivered through runnable tutorials covering orchestration, me
     <th width="20%">View</th>
   </tr>
   <tr>
+    <td>Agent File Conversion, Locally and Privately (hushvert) <img src="https://img.shields.io/badge/⭐_FEATURED-D9B44A" height="16"> <img src="https://img.shields.io/badge/NEW-brightgreen" height="16"></td>
+    <td>Give agents file-conversion abilities with a two-lane setup: an open-source WebAssembly engine converts images, HEIC, audio, and archives on the user's device, while an MCP tool call handles office documents and PDF-to-markdown. Includes an honest fidelity benchmark against popular extractors.</td>
+    <td align="center">
+      <a href="tutorials/agent-file-conversion-with-hushvert"><img src="https://img.shields.io/badge/GitHub-View-blue" height="20"></a>
+    </td>
+  </tr>
+  <tr>
     <td>Web Data Collection for AI Agents (Bright Data) <img src="https://img.shields.io/badge/NEW-brightgreen" height="16"></td>
     <td>Build agents that collect and process web data at scale using enterprise-grade scraping infrastructure. Learn to integrate proxy networks, handle CAPTCHAs, and extract structured data from complex websites.</td>
     <td align="center">
