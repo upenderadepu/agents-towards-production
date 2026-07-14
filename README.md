@@ -19,7 +19,7 @@
 
 ---
 
-## 🎓 From prototype to production, as a method
+<h2 align="center">🎓 From prototype to production, as a method</h2>
 
 <div align="center">
 
